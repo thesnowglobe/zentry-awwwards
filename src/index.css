@@ -79,9 +79,11 @@ body {
 }
 
 @utility special-font {
-  font-family: 'zentry', sans-serif;
-  font-feature-settings: 'ss01' on;
-}
+  b {
+    font-family: "Zentry";
+    font-feature-settings: "ss01" on;
+  }
+} 
 
 @utility hero-heading {
   @apply uppercase font-zentry font-black text-5xl sm:right-10 sm:text-7xl md:text-9xl lg:text-[12rem];
